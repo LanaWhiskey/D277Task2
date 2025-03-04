@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tallahassee.html">Tallahassee</a></li>
+                <li><a href="miami.html">Miami</a></li>
+                <li><a href="tampa.html">Tampa</a></li>
+                <li><a href="orlando.html">Orlando</a></li>
+                <li><a href="form.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Ask Us a Question</h2>
+            <img src="img/bg2.jpg" alt="Beautiful view og the beach with palms" width="600">
+            <form id="contactForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+                <label for="email1">Email Address:</label>
+                <input type="email" id="email1" name="email1" required><br><br>
+                <label for="email2">Confirm Email Address:</label>
+                <input type="email" id="email2" name="email2" required><br><br>
+                <label for="question">Your Question:</label><br>
+                <textarea id="question" name="question" rows="5" cols="40" required></textarea><br><br>
+                <button type="submit" id="submitButton" class="float-left">Submit</button>
+            </form>
+        </section>
+        <aside>
+            <h3>Need Help?</h3>
+            <p>Email us at <a href="mailto:info@floridatourism.com">info@floridatourism.com</a></p>
+            <p>Or call (800) 555-1234.</p>
+        </aside>
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Florida Tourism</p>
+    </footer>
+</body>
+</html>

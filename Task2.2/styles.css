@@ -1,0 +1,204 @@
+/* General Styles */
+body, main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-y: auto;
+    background: linear-gradient(azure, rgb(103, 217, 255));
+
+}
+
+/* Container for the Image and Badge */
+.image-container {
+   /* position: relative; /* Required for absolute positioning of the badge */
+    /*display: inline-block; /* Ensure the container wraps around the image */
+    max-width: 600px;
+    overflow: hidden;
+}
+
+/* Absolutely Positioned Badge */
+.featured-badge {
+    position: absolute; /* Absolute positioning */
+    top: 10px; /* Position from the top of the container */
+    right: 20px; /* Position from the right of the container */
+    background-color: #0077b6; /* Blue background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 0.9em; /* Smaller font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin-top: 10px;
+}
+/*.image-container img {
+
+    /*float: right; /* Float the image to the left */
+
+ 
+/* Special Offer Banner with Relative Positioning */
+.special-offer {
+    position: relative; /* Relative positioning */
+    top: -10px; /* Move the banner 10px up */
+    left: 20px; /* Move the banner 20px to the right */
+    background-color: #ffcd05; /* Yellow background */
+    color: #333; /* Dark text */
+    padding: 10px; /* Padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    width: fit-content; /* Fit the width to the content */
+}
+/* Element Selector */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(#f97aea 20%, yellow);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    font-style: italic;
+    font-size: 2.5rem;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #0077b6;
+    font-size: 1.2rem;
+
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    background: linear-gradient(pink,#b313f2);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 3px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #0077b6; /* Blue header background */
+    color: white; /* White text */
+}
+
+table tr:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
+
+section {
+    flex: 2;
+    background: linear-gradient(rbg(193, 255, 250), lightblue);
+}
+/* Style for the Aside Element */
+aside {
+    flex: 1;
+    background-color: #f7f8c2; /* Light yellow background */
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #0077b6; /* Blue accent border */
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+aside h3 {
+    margin-top: 10px;
+    color: #0077b6; /* Blue heading color */
+}
+
+aside p {
+    font-size: 1.5rem;
+    line-height: 2.0;
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* ID Selector */
+#submitButton {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submitButton:hover {
+    background-color: #3c8af1;
+    font-size: 1.5rem;
+}
+
+/* Float Property */
+.float-left {
+    float: left; /* Float the image to the left */
+    margin: 0 15px 15px 0; /* Add some margin for spacing */
+    width: 300px; /* Set a fixed width for the image */
+    border: 2px solid#0077b6;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
